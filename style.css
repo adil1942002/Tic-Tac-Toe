@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #c7deea;
+  text-align: center;
+}
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainHeading {
+  font-size: 8vmin;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  color: darkblue;
+}
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.9vmin;
+  width: 60vmin;
+  height: 60vmin;
+}
+.btn {
+  width: 18vmin;
+  height: 18vmin;
+  cursor: pointer;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  color: white;
+  font-size: 30px;
+}
+#playAgain {
+  width: 100%;
+  border: none;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: darkblue;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: monospace;
+}
+.winner {
+  display: none;
+  margin-bottom: 40px;
+}
+.select {
+  color: red;
+  border: none;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bodyLight .mainHeading {
+  font-size: 8vmin;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  color: black;
+}
+.bodyLight {
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/05/Castle-sky-hd-backgrounds-620x388.jpg");
+}
+.bodyDark .mainHeading {
+  font-size: 8vmin;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  color: white;
+}
+.bodyDark {
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://1.bp.blogspot.com/-lEkKXlY9MAY/X0Oo5GbqtxI/AAAAAAAANYo/6tdAM0INRTotwAodf_g4goiT0YxGjccuwCLcBGAsYHQ/s1600/20200823_225751_compress50.jpg");
+}
+.bodyDark .theme  {
+  color: white;
+}
+
+
